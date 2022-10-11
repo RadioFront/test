@@ -1,0 +1,91 @@
+>Update Linux system
+sudo apt-get update
+sudo apt-get upgrade
+
+>Install git
+sudo apt install git
+git --version
+
+>Install pip
+sudo apt install python3-pip
+
+>Install curl
+https://www.cyberciti.biz/faq/how-to-install-curl-command-on-a-ubuntu-linux/
+sudo apt install curl
+curl --version
+
+>Install Deepracer
+git clone https://github.com/aws-deepracer-community/deepracer-for-cloud.git
+
+cd deepracer-for-cloud && ./bin/prepare.sh
+Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+
+Ignore this warning
+debconf: delaying package configuration, since apt-utils is not installed
+
+Failed to enable unit: Unit file docker.service does not exist.
+Failed to restart docker.service: Unit docker.service not found.
+usermod: group 'docker' does not exist
+
+>Remove outdated key for nvidia
+https://developer.nvidia.com/blog/updating-the-cuda-linux-gpg-repository-key/
+Follow all the steps in detail, then it works.
+
+
+run init.sh -c local -a cpu
+run 'aws configure --profile minio' to set 
+
+Set up alias
+alias drcd='cd ~/deepracer-for-cloud-master && source bin/activate.sh'
+alias drup='dr-update && dr-update-env && dr-upload-custom-files'
+alias drinc='dr-increment-training && dr-update && dr-update-env && dr-upload-custom-files'
+alias drcont='dr-stop-traning && dr-increment-training && dr-update && dr-update-env && dr-upload-custom-files'
+alias drstop='dr-stop-training'
+alias drstart='dr-start-training -w -v'
+
+Screen lock - all turned off
+
+DR_WORLD_NAME=reInvent2019_track
+DR_WORLD_NAME=Albert
+
+2022_summit_speedway
+
+WSL
+sudo apt update
+https://docs.nvidia.com/cuda/wsl-user-guide/index.html
+After DRfC instruction:
+sudo apt-get update
+sudo apt-get install -y nvidia-docker2   
+sudo service docker stop
+sudo service docker start
+
+
+User
+Access key ID
+Secret access key
+cinderpelt
+AKIA56D3PBQMQU72OY4R
+QmpyAVMPH9yp7dvMpR4rQ1eVFZW38h3sI7lQ5qGm
+
+DR_UPLOAD_S3_BUCKET=
+aws-deepracer-assets-5a6b7882-583f-4873-a683-f42e526f3228
+
+
+
+22:signal-handler (1645716476) Received SIGTERM scheduling shutdown...
+/usr/local/bin/start.sh: line 24:    23 Terminated              LD_PRELOAD=/libchangehostname.so xvfb-run --auto-servernum -s "-screen 0 1024x768x16" train
+-Restart does not solve it
+-Reset the rl-deepracer
+DR_LOCAL_S3_PRETRAINED=False (it was True after removing all rl-deepracer dictories)
+-Restart after dr-update and dr-update-env
+
+docker pull awsdeepracercommunity/deepracer-robomaker:4.0.13-cpu-avx2
+docker pull awsdeepracercommunity/deepracer-rlcoach:4.0.12
+
+docker pull awsdeepracercommunity/deepracer-robomaker:5.0.1-cpu-avx2
+docker pull awsdeepracercommunity/deepracer-rlcoach:5.0.0
+docker pull awsdeepracercommunity/deepracer-sagemaker:5.0.0-cpu
+
+
+how to enable x-server setup?
+Does Sagemaker run?
