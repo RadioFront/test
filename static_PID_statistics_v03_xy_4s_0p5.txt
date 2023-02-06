@@ -1,0 +1,53 @@
+1200 samples / period = 0.1 sec
+sonoma_raceway.world
+Avg: 0.068      Max: 0.126      Var:0.062       Center: 0.014, 0.014, -10.026
+Avg: 0.061      Max: 0.114      Var:0.059       Center: 0.016, 0.008, -9.993
+Avg: 0.059      Max: 0.118      Var:0.057       Center: -0.001, 0.017, -9.990
+
+sonoma_raceway_windy_avg_xy01p0_var_00p5.world
+Avg: 0.165      Max: 0.476      Var:0.162       Center: 0.018, 0.023, -10.025
+Avg: 0.140      Max: 0.395      Var:0.139       Center: 0.016, 0.006, -9.989
+Avg: 0.151      Max: 0.472      Var:0.151       Center: 0.002, 0.018, -9.993
+
+sonoma_raceway_windy_avg_xy02p0_var_00p5.world
+Avg: 0.229      Max: 0.728      Var:0.227       Center: 0.018, 0.023, -10.026
+Avg: 0.199      Max: 0.513      Var:0.198       Center: 0.018, 0.005, -9.988
+Avg: 0.232      Max: 0.795      Var:0.232       Center: 0.000, 0.018, -9.996
+
+sonoma_raceway_windy_avg_xy03p0_var_00p5.world
+Avg: 0.311      Max: 1.010      Var:0.310       Center: 0.026, 0.030, -10.021
+Avg: 0.263      Max: 0.707      Var:0.262       Center: 0.016, 0.015, -9.984
+Avg: 0.327      Max: 1.093      Var:0.327       Center: -0.003, 0.019, -9.997
+
+sonoma_raceway_windy_avg_xy04p0_var_00p5.world
+Avg: 0.409      Max: 1.238      Var:0.407       Center: 0.020, 0.050, -10.034
+Avg: 0.343      Max: 0.914      Var:0.342       Center: 0.031, 0.007, -9.990
+Avg: 0.430      Max: 1.440      Var:0.430       Center: 0.001, 0.031, -9.991
+
+sonoma_raceway_windy_avg_xy05p0_var_00p5.world
+Avg: 0.510      Max: 1.950      Var:0.508       Center: 0.062, 0.069, -10.031
+Avg: 0.421      Max: 1.395      Var:0.419       Center: 0.053, 0.029, -9.985
+Avg: 0.535      Max: 1.822      Var:0.534       Center: 0.019, 0.049, -9.992
+
+sonoma_raceway_windy_avg_xy06p0_var_00p5.world
+Avg: 0.580      Max: 1.909      Var:0.580       Center: 0.022, 0.019, -10.002
+Avg: 0.561      Max: 2.422      Var:0.560       Center: 0.056, 0.098, -9.973
+Avg: 0.657      Max: 1.701      Var:0.655       Center: 0.018, 0.051, -9.969
+
+sonoma_raceway_windy_avg_xy07p0_var_00p5.world
+Avg: 0.794      Max: 4.828      Var:0.784       Center: 0.184, 0.180, -9.997
+Avg: 0.700      Max: 4.173      Var:0.689       Center: 0.179, 0.116, -9.929
+Avg: 0.885      Max: 5.889      Var:0.871       Center: 0.140, 0.201, -9.898
+
+sonoma_raceway_windy_avg_xy08p0_var_00p5.world
+Avg: 1.130      Max: 7.008      Var:1.093       Center: 0.392, 0.392, -9.871
+Avg: 1.013      Max: 8.051      Var:1.001       Center: 0.369, 0.232, -9.768
+Avg: 1.234      Max: 8.363      Var:1.166       Center: 0.338, 0.430, -9.742
+
+sonoma_raceway_windy_avg_xy09p0_var_00p5.world
+Avg: 2.224      Max: 10.663     Var:2.086       Center: 0.957, 1.166, -9.363
+Crashed
+Avg: 2.149      Max: 18.654     Var:2.192       Center: 1.026, 0.897, -9.178
+Crashed
+
+sonoma_raceway_windy_avg_xy10p0_var_00p5.world
